@@ -1,3 +1,4 @@
+// Navbar
 const hamburger = document.querySelector('.hamburger');
 const navButtonsMobile = document.querySelector('.nav-buttons-mobile');
 const lines = document.querySelectorAll('.line');
