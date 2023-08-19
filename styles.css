@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
 @import url('https://fonts.cdnfonts.com/css/blanka');
 
+
+
+
 *{
     margin: 0px;
     padding: 0;
@@ -59,23 +62,39 @@
     display: flex;
     gap: 0 13px;
     margin-right: 3%;
+    text-decoration: none;
 }
 
 .nav-btn {
     font-size: 1.2rem;
+    padding: 10px;
     color: #eeeeee;
-    transition: all 0.3s;
-    text-decoration: none;
-    padding: .5rem 1rem;
-    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    
 }
 
-.nav-btn:hover {
-    color: white;
-    background-color: #228B22;
-    transform: scale(1.1);
-    box-shadow: 0 0 15px #228B22;
+
+.nav-btn::after{
+    content:"";
+    display: block;
+    height: 4px;
+    width: 100%;
+    text-decoration-line:none;
+    background-color: #2bd576;
+    transform: scalex(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
 }
+
+.nav-btn:hover::after{
+    transform: scalex(1);
+    text-decoration: none;
+    
+    
+}
+
+
 
 .hamburger {
     position: fixed;
@@ -144,11 +163,86 @@
 }
 
 
+.carousel-item {
+    height: 750px;
+    background-color: aquamarine;
+}
+
+.carousel{
+    top: 90px;
+}
 
 
 
 
-@media screen and (min-width: 350px) and (max-width: 800px){
+.about-us {
+    background: #faf9f9;
+    padding-top: 80px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.about-us .container .row {
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.about-us .container .row .col-lg-6 {
+    padding: 120px 50px 140px 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.about-us .container .row .col-lg-6 h1 {
+    font-size: 45px;
+   
+}
+
+.about-us .container .row .col-lg-6 h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2bd576;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.about-us .container .row .col-lg-6 p {
+    font-size: 18px;
+    color: #464545;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.about-us .container .row .col-lg-6 img {
+    width: 100%;
+}
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 800px){
     .overlay{
         gap:10px;
     }
@@ -175,13 +269,13 @@
     .hamburger{
         display: flex;
     }
-
-    .nav-btn:focus{
-        color: white;
-        background-color: #29AE61;
-        transform: scale(1.1);
-        box-shadow: 0 0 15px #2ECC71;
+    .carousel-item{
+        height: 300px;
     }
+    .row .col-lg-6{
+        margin-bottom: -200px;
+    }
+  
    
   
 }
