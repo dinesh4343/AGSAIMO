@@ -1,4 +1,16 @@
-
+.team {
+    text-align: center;
+  }
+  
+  .team h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 20px;
+ 
+    color: #0000;
+   
+   
+  }
 
 .main{
     width: 100%;
