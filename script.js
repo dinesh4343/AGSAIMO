@@ -21,6 +21,7 @@ document.body.addEventListener('click', (event) => {
     }
 });
 
+// Add event listeners to navigation links to close the navigation when clicked
 const navigationLinks = document.querySelectorAll('.nav-buttons-mobile a');
 navigationLinks.forEach(link => {
     link.addEventListener('click', () => {

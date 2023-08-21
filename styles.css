@@ -192,7 +192,7 @@ body{
 
 
 .about {
-   margin-top: 100px;
+   margin-top: 150px;
   
     text-align: center;
   }
@@ -254,33 +254,6 @@ body{
 
 
 
-.vissionAndMission{
-    gap: 20px;
-    margin-top: 10%;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-}
-.mission-card,.vision-card{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    width: 600px;
-    border: 3px solid rgb(34, 201, 9);
-}
-
-.mission-card,.vision-card {
-    transition: transform 0.3s, box-shadow 0.3s;
-    cursor: pointer;
-}
-
-.mission-card:hover,.vision-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.mission-card.expanded ,.vission-card.mission-card.expanded{
-    transform: scale(1.2);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
 
 
 
@@ -315,15 +288,7 @@ body{
 .maps h1{
     margin-bottom: 30px;
 }
-@media(width<=576px) {
-    .vissionAndMission{
-        flex-direction: column;
-        gap: 50px;
-    }
-    .mission-card,.vision-card{
-        width: 400px;
-    }
-}
+
 
   
 
@@ -377,21 +342,7 @@ footer{
   margin:0% 1%;
   }
   
-  @media (max-width:720px){
-  .footer{
-  text-align:left;
-  padding:5%;
-  }
-  .footer .footer-row ul li{
-  display:block;
-  margin:10px 0px;
-  text-align:left;
-  }
-  .footer .footer-row a i{
-  margin:0% 3%;
-  }
-  }
-
+ 
 
   .back-to-top-btn {
     display: none; 
@@ -462,8 +413,8 @@ footer{
   .map_sec{
     padding: 50px 0px;
 }
-.map_inner h4, .map_inner p{
-    color: #000;
+.map_inner h2, .map_inner p{
+    color: #ffffff;
     text-align: center
 }
 .map_inner p{
@@ -478,52 +429,3 @@ footer{
 
 
 
-
-
-@media screen and (min-width: 250px) and (max-width: 800px){
-    .overlay{
-        gap:10px;
-    }
-    .overlay h1{
-        margin-bottom: 5px;
-    }
-    .header-nav .nav-buttons{
-        display: none;
-    }
-    .date-heading{
-        font-size:1.25rem;
-    }
-    .nav-buttons-mobile{
-        display: flex
-    }
-    
-    .nav-btn::after{
-        margin-left: 35px;
-        width: 60%;
-    }
-
-    .header-nav .branding .brand-name{
-        transform: translateY(0);
-    }
-    h1{
-        font-size: 1.7rem;
-    }
-
-    .hamburger{
-        display: flex;
-    }
-    .carousel-item{
-        height: 300px;
-    }
-    .row .col-lg-6{
-        margin-bottom: -200px;
-    }
-    .about-us .container .row .col-lg-6 h3 {
-        font-size: 20px;
-    }
-    .about h1{
-        font-size: 25px;
-        margin-top: -50px;
-        margin-bottom: -50px;
-    }
-}
