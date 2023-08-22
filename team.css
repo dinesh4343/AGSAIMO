@@ -4,12 +4,21 @@
     box-sizing: border-box;
 }
 .team{
-    margin-top: 200px;
+    padding-top: 100px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+.team h1{
+    font-size: 45px;
+}
+.teams{
 
+    margin-top: -100px;
+   
+}
 
 .main{
    
@@ -19,6 +28,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 80px;
+    margin-bottom: 100px;
    
 }
 .profile-card{
