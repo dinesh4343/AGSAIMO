@@ -38,7 +38,7 @@
     background: white;
     padding: 30px;
     border-radius: 50%;
-    box-shadow: 0 0 22px black;
+    box-shadow: rgba(21, 214, 3, 0.3) 0px 0px 0px 3px;
     transition: .6s;
 }
 .profile-card:hover{
