@@ -9,7 +9,7 @@ document.getElementById("submit-btn").addEventListener("click", function(event) 
 });
 
 function sendEmail(name, email, feedback) {
-    // 
+   
     emailjs.init("HBdFQ1htrZ0G9Y2ei");
     
  

@@ -4,31 +4,29 @@
     box-sizing: border-box;
 }
 .team{
-    padding-top: 100px;
-   
+   position: relative;
+   top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 .team h1{
     font-size: 45px;
 }
-.teams{
 
-    margin-top: -100px;
-   
-}
 
 .main{
-   
-    height: 70vh;
+    position: relative;
+   top: 200px;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
    
 }
 .profile-card{
@@ -91,4 +89,9 @@
 .social-links a:hover{
     color: #0A66C2;
     transition: .6s;
+    
 }
+
+
+
+    
