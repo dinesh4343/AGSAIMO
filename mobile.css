@@ -41,11 +41,15 @@
 
     .header-nav .branding .brand-name{
         transform: translateY(0);
+        
     }
     h1{
         font-size: 1.7rem;
     }
-
+    .brand-name{
+       margin-left: 20px;
+    }
+  
     .hamburger{
         display: flex;
     }
