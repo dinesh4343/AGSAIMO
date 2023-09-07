@@ -1,6 +1,6 @@
 @media (max-width:720px){
     .footer{
-    margin-top: 100rem;
+    
     text-align:left;
     padding:5%;
     }
@@ -68,11 +68,7 @@
         
         font-size: 30px;
     }
-    .main{
-        margin-top: 90px;
-        margin-bottom: 600px;
-    }
-
+  
     .carousel-item img {
         height: 15rem;
     }

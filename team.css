@@ -9,24 +9,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+  
     
 }
 .team h1{
     font-size: 45px;
+}
+.teams{
+    margin-bottom: 500px;
 }
 
 
 .main{
     position: relative;
    top: 200px;
-    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 80px;
-    margin-bottom: 300px;
+    gap: 400px;
+    margin-bottom: 100px;
    
 }
 .profile-card{
@@ -39,6 +41,7 @@
     box-shadow: rgba(21, 214, 3, 0.3) 0px 0px 0px 3px;
     transition: .6s;
 }
+
 .profile-card:hover{
     border-radius: 10px;
     height: 280px;
@@ -57,7 +60,7 @@
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    box-shadow: 0 0 22px black;
+    box-shadow: 0 0 22px green;
     transition: .6s;
 }
 .profile-card:hover img{
@@ -93,5 +96,16 @@
 }
 
 
+@media (max-width:720px){
+    .teams{
+        margin-bottom: 250px;
+    }
+    .main{
+        margin-bottom: 100px;
+        gap:100px;
+    }
+
+
+}
 
     
