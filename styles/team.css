@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 400px;
+    gap: 100px;
     margin-bottom: 100px;
    
 }
@@ -40,6 +40,7 @@
     border-radius: 50%;
     box-shadow: rgba(21, 214, 3, 0.3) 0px 0px 0px 3px;
     transition: .6s;
+    margin: 50px;
 }
 
 .profile-card:hover{
