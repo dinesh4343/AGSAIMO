@@ -159,6 +159,9 @@ section {
     width: 50%;
     
 }
+html, body{
+    overflow-x: hidden;
+}
 
 .contact-info-item {
     display: flex;
