@@ -294,6 +294,7 @@ body{
 body{
     background: linear-gradient(to top right, #c8f0c8e2, #ffffff) no-repeat fixed center;
 }
+
 .product{
 
     padding-top: 100px;
@@ -486,6 +487,15 @@ footer{
     box-shadow: 0 0 15px #8be18b; 
 }
 
+
+.contact-info-content a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-info-content a:hover{
+    text-decoration: none;
+    color:#8be18b ;
+}
   
 
 
