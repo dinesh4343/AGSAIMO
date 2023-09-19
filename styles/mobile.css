@@ -14,7 +14,26 @@
     }
     }
   
-
+    @media (max-width: 767px) {
+        .new-event-slide {
+            font-size: 16px;
+        }
+    }
+    
+    /* Media query for medium screens (e.g., tablets) */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .new-event-slide {
+            top: 20px;
+            font-size: 18px;
+        }
+    }
+    
+    /* Media query for large screens (e.g., desktops) */
+    @media (min-width: 992px) {
+        .new-event-slide {
+            font-size: 24px;
+        }
+    }
     
 
 @media screen and (min-width: 250px) and (max-width: 900px){
@@ -70,7 +89,9 @@
         margin-top: -50px;
         margin-bottom: -50px;
     }
-
+    .news{
+        font-size: 25px;
+    }
     .about-us .container .row .col-lg-6 h1{
         
         font-size: 30px;

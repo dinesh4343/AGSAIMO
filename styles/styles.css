@@ -190,7 +190,7 @@ body{
 .carousel{
     
     top: 90px;
-    
+    margin-bottom: 150px;
 }
 
 
@@ -206,6 +206,106 @@ body{
 }
 
   
+/* Styles for the new slider */
+.new-slider {
+
+    width: 100%;
+   
+    margin: 0;
+    display: grid;
+    position: relative;
+    place-items: center;
+    overflow: hidden;
+
+  }
+  
+  /* Styles for the new slidetrack */
+  .new-slidetrack {
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 20s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(calc(-250px * 8));
+    }
+  }
+  
+  /* Styles for the new side gradient */
+  .new-side-gradient {
+    width: 100px;
+    height: 100%;
+    background: transparent;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+  }
+  
+  .new-side-gradient:nth-child(2) {
+    left: unset;
+    right: 0;
+
+  }
+  
+  /* Styles for the new event slide */
+  .new-event-slide {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    overflow-y: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Styles for the new courses */
+  .new-courses {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+    display: flex;
+    overflow-y: hidden;
+  }
+  
+  /* Apply hover effect to the new event slide elements */
+  .new-event-slide:hover {
+    transform: scale(1.05);
+    color: #2bd576; /* Increase the size of the slide on hover */
+  }
+  
+  /* Apply hover effect to the new side gradient elements */
+  .new-side-gradient:hover {
+    opacity: 0.8; /* Reduce the opacity of the side gradient on hover */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect for opacity */
+  }
+  
+ 
+  
+  
+  /*courses*/
+  
+  /*branch*/
+  
+  
+  
+
+
+
+
+
+
+
+
+
 
 .about {
    margin-top: 100px;
@@ -214,14 +314,19 @@ body{
   }
   
 .about h2 {
-    font-size: 36px;
+
     margin: 0;
     font-size: 50px;
     padding: 20px;
     color: #000;
   }
 
-
+.news{
+   
+    margin: 0;
+    padding: 20px;
+    color: #000;
+}
 
 .about-us {
   
