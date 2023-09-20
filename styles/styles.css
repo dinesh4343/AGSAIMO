@@ -205,6 +205,14 @@ body{
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
   
 /* Styles for the new slider */
 .new-slider {
@@ -238,8 +246,7 @@ body{
   
   /* Styles for the new side gradient */
   .new-side-gradient {
-    width: 100px;
-    height: 100%;
+  
     background: transparent;
 
     position: absolute;
@@ -275,11 +282,14 @@ body{
     display: flex;
     overflow-y: hidden;
   }
+  .new-event-slide{
+    color: #0008C1;
+    font-weight:600;
+  }
   
-  /* Apply hover effect to the new event slide elements */
   .new-event-slide:hover {
     transform: scale(1.05);
-    color: #2bd576; /* Increase the size of the slide on hover */
+
   }
   
   /* Apply hover effect to the new side gradient elements */
@@ -299,16 +309,33 @@ body{
   
 
 
+  @keyframes popAndBlink {
+    0% {
+        transform: scale(1); 
+        opacity: 1; 
+    }
+    50% {
+        transform: scale(1.1); 
+        opacity: 0; 
+    }
+    100% {
+        transform: scale(1); 
+        opacity: 1; 
+    }
+}
 
-
-
+.news {
+    text-align: center;
+  
+    animation: popAndBlink 3s linear infinite; 
+}
 
 
 
 
 
 .about {
-   margin-top: 100px;
+ 
   
     text-align: center;
   }
