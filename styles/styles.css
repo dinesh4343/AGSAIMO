@@ -721,3 +721,20 @@ footer{
     margin-right: 10px;
 }
 
+
+.dinesh{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;
+}
+
+.dinesh a:hover{
+    color: #0008C1;
+}
+
+.dinesh p{
+    font-size: larger;
+    margin-top: 20px;
+}
+
