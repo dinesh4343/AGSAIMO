@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
 @import url('https://fonts.cdnfonts.com/css/blanka');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 html, body{
     overflow-x: hidden;
 }
@@ -44,8 +43,7 @@ body{
     border: 1px solid #1a5d53;
     z-index: 9999;
     transition: 0.4s;
-    
-    font-weight: 300;
+    font-weight: 500;
     will-change: contents;
 }
 
@@ -503,8 +501,67 @@ body{
 
 
 
+
+
+
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+
+	font-weight: 100;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+
+    
+
+.gallery-container img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid #FFF;
+   margin-bottom: 50px;
+    transition-duration: 1s;
+}
+
+.gallery-container img:hover {
+    border: 5px solid #fff;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: none;
+    filter: none;
+}
+
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
  
 
+/* Your existing styles go here */
+
+@media only screen and (max-width: 768px) {
+    .heading {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        padding: 2rem 0; /* A bit less padding, you know, to cozy up */
+    }
+
+    .gallery-container img {
+        width: 100%; /* Occupy the full width of the screen */
+        height: 50%; /* Maintain aspect ratio */
+    }
+}
 
 
 
